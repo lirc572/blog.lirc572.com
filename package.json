@@ -1,0 +1,23 @@
+{
+  "name": "blog.lirc572.xyz",
+  "version": "1.0.0",
+  "description": "",
+  "author": "lirc572",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/CS2102-Project-Team/CS2102_2021_S1_Team27/issues"
+  },
+  "homepage": "https://github.com/CS2102-Project-Team/CS2102_2021_S1_Team27#readme",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:lirc572/blog.lirc572.xyz.git"
+  },
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.2",
+    "vuepress": "^1.5.4"
+  }
+}
