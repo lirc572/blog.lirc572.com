@@ -13,8 +13,9 @@ collections:
     show_preview_links: true
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Tags", name: "tags" , widget: "list", field: {label: "Tag", name: "tag", widget: "string"}}
-      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - {label: "Tags", name: "tags" , widget: "list", required: false}
+      - {label: "Summary", name: "summary", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
