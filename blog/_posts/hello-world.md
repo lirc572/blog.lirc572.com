@@ -1,13 +1,15 @@
 ---
 title: Hello World
+author: lirc572
 date: 2020-05-20
-tags: 
+tags:
   - JavaScript
   - Vue
-author: lirc572
 ---
 
 ```
 echo "Hello world"
 ```
 > This is a test
+
+*Hello*
