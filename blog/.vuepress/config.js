@@ -2,6 +2,12 @@ module.exports = {
   title: 'lirc572\'s Blog',
   description: 'lirc572\'s blog',
   theme: '@vuepress/theme-blog',
+  head: [
+    ['link', { rel: 'icon', href: '/icon/lirc572.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+  ],
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#dateformat

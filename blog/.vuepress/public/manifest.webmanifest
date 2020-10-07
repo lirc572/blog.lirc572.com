@@ -1,0 +1,16 @@
+
+{
+  "background_color": "purple",
+  "description": "lirc572's blog (PWA)",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/lirc572.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    }
+  ],
+  "name": "lirc572's Blog",
+  "short_name": "lirc572",
+  "start_url": "/"
+}
