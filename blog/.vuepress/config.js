@@ -8,6 +8,38 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
+  plugins: [
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'tip',
+        defaultTitle: {
+          '/': 'TIP',
+          '/zh/': '提示',
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'warning',
+        defaultTitle: {
+          '/': 'Warning',
+          '/zh/': '注意',
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'dangerous',
+        defaultTitle: {
+          '/': 'Warning',
+          '/zh/': '警告',
+        },
+      },
+    ],
+  ],
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#dateformat
