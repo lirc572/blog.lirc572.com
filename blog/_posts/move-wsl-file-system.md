@@ -5,7 +5,7 @@ tags:
   - WSL
   - Windows Subsystem for Linux
 ---
-WSL has been very useful as a Linux environment running on Windows 10. One problem for WSL is, however, that it is installed to the C drive by default. It would easily take up over 10 GB of space after installing some programming tool chains on it. Recently, my C drive was once again filled by software that can only be installed on C drive. As I browse for files to remove, I found out that my WSL installation was taking 15 GB of storage! After some online search, I managed to move my WSL file system out of C drive. Here is [a link to the solution](https://stackoverflow.com/questions/38779801/move-wsl-bash-on-windows-root-filesystem-to-another-hard-drive#answer-51767786) I referred to. I will also briefly talked about it here.
+WSL has been very useful as a Linux environment running on Windows 10. One problem for WSL is, however, that it is installed to the C drive by default. It would easily take up over 10 GB of space after installing some programming tool chains on it. Recently, my C drive was once again filled by software that can only be installed on C drive. As I browse for files to remove, I found out that my WSL installation was taking 15 GB of storage! After some online search, I managed to move my WSL file system out of C drive. Here is [a link to the solution](https://stackoverflow.com/questions/38779801/move-wsl-bash-on-windows-root-filesystem-to-another-hard-drive#answer-51767786) I referred to. I will also briefly talk about it here.
 
 ## Move WSL File System
 
@@ -30,7 +30,7 @@ Export the distro to a tar file (`wsl --export <distro-name> <path-of-tar-file>`
 PS C:\> wsl --export Ubuntu-20.04 E:\ubuntu-wsl.tar
 ```
 
-After the export finishes, import the tar file to your desired location (`wsl --import <distro-name> <path-of-file-system> <path-of-tar-file>`). E.g.:
+After the export finishes, import the tar file to your desired location (`wsl --import <distro-name> <path-of-desired-location> <path-of-tar-file>`). E.g.:
 
 ```PowerShell
 PS C:\> wsl --import Ubuntu20.04 E:\WSL\Ubuntu20.04 E:\ubuntu-wsl.tar
@@ -63,6 +63,7 @@ If you do not want to type the export and import commands yourself, you can use 
 
 ## References:
 
-- [Move WSL (Bash on Windows) root filesystem to another hard drive? -- Stack Overflow](https://stackoverflow.com/questions/38779801/move-wsl-bash-on-windows-root-filesystem-to-another-hard-drive#answer-51767786)
+- [Move WSL (Bash on Windows) root filesystem to another hard drive?
+ -- Stack Overflow](https://stackoverflow.com/questions/38779801/move-wsl-bash-on-windows-root-filesystem-to-another-hard-drive#answer-51767786)
 - [move-wsl -- GitHub](https://github.com/pxlrbt/move-wsl)
 - [Impossible to set default user of distribution installed via wsl --import on 1903 -- GitHub](https://github.com/microsoft/WSL/issues/3974#issuecomment-522921145)
