@@ -129,7 +129,7 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#sitemap
      */
     sitemap: {
-      hostname: 'https://blog.lirc572.xyz/'
+      hostname: 'https://blog.lirc572.com/'
     },
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#comment

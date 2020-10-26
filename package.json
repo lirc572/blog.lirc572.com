@@ -1,5 +1,5 @@
 {
-  "name": "blog.lirc572.xyz",
+  "name": "blog.lirc572.com",
   "version": "1.0.0",
   "description": "",
   "author": "lirc572",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:lirc572/blog.lirc572.xyz.git"
+    "url": "git+https://github.com:lirc572/blog.lirc572.com.git"
   },
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.2",
