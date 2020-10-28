@@ -20,7 +20,7 @@ My interests:
   - I learnt a bit of everything, ~~but I am not an expert in anything~~ :slightly_frowning_face:
   - In terms of programming language, I have used Python, JavaScript, Node.JS, C++, Java, Lua, Forth, ~~Brainfuck, Ti-Basic, NECPU Assembly~~
   - I have built SPAs, PWAs and mobile apps using [Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [uni-app](https://uniapp.dcloud.net.cn/), [Native.js](http://www.html5plus.org/doc/zh_cn/android.html)
-  - I have ~a bit of~ experience with Git, SQL and Linux
+  - I have ~~a bit of~~ experience with Git, SQL and Linux
 - **EE** :satellite:
   - I like playing with MCUs and FPGAs
   - MCU: I have used ESP32, ESP8266, Attiny85, Attiny13A, CH551, STM32F103
