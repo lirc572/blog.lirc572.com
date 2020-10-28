@@ -85,7 +85,7 @@ module.exports = {
       copyright: [
         {
           text: 'Powered by VuePress | lirc572 © 2020-present',
-          link: '',
+          link: '/',
         },
       ],
     },
