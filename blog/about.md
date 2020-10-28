@@ -43,3 +43,5 @@ My interests:
 - Theme: [VuePress Official Blog Theme](https://github.com/vuepress/vuepress-theme-blog)
 - Hosting Platform: [Netlify](https://www.netlify.com/)
 - CMS: [Netlify CMS](https://www.netlifycms.org/)
+- Music Player:
+  - [MetingJS](https://github.com/metowolf/MetingJS) integrated as a VuePress plugin
