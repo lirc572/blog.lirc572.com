@@ -1,19 +1,19 @@
 ---
 title: Sipeed Tang Nano Development Environment Setup
+author: ""
 date: 2019-12-23
 tags:
-- tang nano
-- sipeed
-- sipeed tang nano
-- lichee tang nano
-- lichee tang
-- FPGA
-- tutorial
-- tang nano tutorial
-- Verilog
-- SystemVerilog
-- Gowin
-author: lirc572
+  - tang nano
+  - sipeed
+  - sipeed tang nano
+  - lichee tang nano
+  - lichee tang
+  - FPGA
+  - tutorial
+  - tang nano tutorial
+  - Verilog
+  - SystemVerilog
+  - Gowin
 ---
 
 
