@@ -7,6 +7,10 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    /* The next 3 lines are for metingjs + aplayer */
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js' }],
   ],
   plugins: [
     [
@@ -38,6 +42,9 @@ module.exports = {
           '/zh/': '警告',
         },
       },
+    ],
+    [
+      require('./meting-plugin.js')
     ],
   ],
   themeConfig: {
