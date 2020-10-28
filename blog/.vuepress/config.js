@@ -75,7 +75,7 @@ module.exports = {
         },
         {
           type: 'linkedin',
-          link: '/',
+          link: 'https://www.linkedin.com/in/lirc572',
         },
         {
           type: 'mail',
