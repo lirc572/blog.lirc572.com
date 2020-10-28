@@ -5,6 +5,16 @@ publish_mode: editorial_workflow
 media_folder: "blog/.vuepress/public/img"
 public_folder: "/img"
 collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About"
+        file: "blog/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
+          - {label: "Content", name: "body", widget: "markdown"}
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "blog/_posts" # The path to the folder where the documents are stored
