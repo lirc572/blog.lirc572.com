@@ -19,3 +19,5 @@ axios.get(
   console.log(text);
 });
 ```
+
+Reference: [axios/axios#2126](https://github.com/axios/axios/issues/2126#issuecomment-489675527)
