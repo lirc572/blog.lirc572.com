@@ -46,6 +46,9 @@ module.exports = {
     [
       require('./meting-plugin.js')
     ],
+    [
+      require('./deprecated')
+    ],
   ],
   themeConfig: {
     /**
