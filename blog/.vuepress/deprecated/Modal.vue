@@ -12,7 +12,7 @@
 
             <div class="modal-body">
               <slot name="body">
-                This website has been <i>deprecated</i>. Please go to <a href="https://lirc572.com" target="_blank">lirc572.com</a>, where new content is served.
+                This website has been <i>deprecated</i>. Please visit <a href="https://lirc572.com" target="_blank">lirc572.com</a>, where new content is served.
               </slot>
             </div>
 
